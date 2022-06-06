@@ -1,8 +1,11 @@
 username: admin@gmail.com
+
 password: admin@gmail.com
 
 Home: http://127.0.0.1:8000
+
 Login: http://127.0.0.1:8000/login
+
 Register: http://127.0.0.1:8000/register
 
 All Films:
