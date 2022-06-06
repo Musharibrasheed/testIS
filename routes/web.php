@@ -21,5 +21,5 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('films/{slug}', [App\Http\Controllers\FilmsController::class, 'getFilm'])->name('film_slug');
+Route::get('films/name/{slug}', [App\Http\Controllers\FilmsController::class, 'getFilm'])->name('film_slug');
 Route::resource('films', App\Http\Controllers\FilmsController::class);

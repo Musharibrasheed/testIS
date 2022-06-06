@@ -29,7 +29,7 @@ class FilmsController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $films = $this->filmsRepository->paginate(1);
+        $films = $this->filmsRepository->paginate(11);
 
         return view('films.index')
             ->with('filmss', $films);

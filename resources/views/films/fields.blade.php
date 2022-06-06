@@ -35,7 +35,7 @@
 <!-- Rating Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('rating', 'Rating:') !!}
-    {!! Form::select('rating', [], null, ['class' => 'form-control custom-select']) !!}
+    {!! Form::select('rating', [1,2,3,4,5], null, ['class' => 'form-control custom-select']) !!}
 </div>
 
 
@@ -48,7 +48,7 @@
 <!-- Genre Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('genre', 'Genre:') !!}
-    {!! Form::select('genre', [], null, ['class' => 'form-control custom-select']) !!}
+    {!! Form::select('genre', ['Magic'=>'Magic','Horror'=>'Horror','Action'=>'Action'], null, ['class' => 'form-control custom-select']) !!}
 </div>
 
 

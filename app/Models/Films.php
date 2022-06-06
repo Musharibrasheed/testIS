@@ -75,7 +75,7 @@ class Films extends Model
         // 'rating' => 'requried',
         'country' => 'required',
         // 'genre' => 'required',
-        'photo' => 'required'
+        // 'photo' => 'required'
     ];
 
     
